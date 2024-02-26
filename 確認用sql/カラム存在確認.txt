@@ -1,0 +1,8 @@
+SELECT 'aaaa' AS TableName,COLUMN_NAME AS ColumnName
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE
+	TABLE_NAME = 'aaaa'
+	AND TABLE_SCHEMA = 'xxxx'
+	AND (
+		COLUMN_NAME = 'bbbb'
+	)
